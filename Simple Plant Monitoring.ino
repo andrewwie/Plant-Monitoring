@@ -39,8 +39,6 @@ void loop()
   Blynk.virtualWrite(V5, t);                                 
   Blynk.virtualWrite(V6, h);  
   m = analogRead(pinMoist);
-  mf = m/673*100;
-  Serial.println(mf);
   Blynk.virtualWrite(V7, m);
   if (m <= 341)
   {
