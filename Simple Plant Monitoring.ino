@@ -6,8 +6,8 @@
 #define DHTTYPE DHT22
 
 char auth[] = "82a1d1d9d23d40e9aa4f4650b46eb1a6";
-char ssid[] = "RICKY";
-char pass[] = "L0nghumen";
+char ssid[] = "Andrew";
+char pass[] = "Andrew123";
 
 int LED1 = 14;
 int LED2 = 12;
